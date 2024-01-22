@@ -17,7 +17,7 @@ async function getProducts() {
             </div>
         `
     }
-    );
+    ).join(' ');
     document.querySelector(".products .container .row").innerHTML = result;
 }
 getProducts();
