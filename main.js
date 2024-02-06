@@ -5,7 +5,7 @@ async function getProducts() {
     const result = products.map(function (product) {
         return `
         
-                <div class="col-md-6 col-12 my-2">
+                <div class="col-lg-4 col-md-6 col-12 my-2">
                 <div class="card">
                 <div class="card-body">
                 <img src="${product.thumbnail}" class="card-top-img" alt="Product Image">
