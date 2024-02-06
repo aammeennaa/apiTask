@@ -8,7 +8,7 @@ async function getProducts() {
                 <div class="col-md-2 col-12 my-2">
                 <div class="card">
                 <div class="card-body">
-                <div class="embed-responsive embed-responsive-16by9">
+                <div class="embed-responsive embed-responsive-5by4">
                   <img src="${product.thumbnail}" class="embed-responsive-item card-top-img" alt="Product Image">
                 </div>                
                 <h4>${product.title}</h4>
