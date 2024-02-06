@@ -11,8 +11,8 @@ async function getProducts() {
                 <div class="embed-responsive embed-responsive-16by9">
                   <img src="${product.thumbnail}" class="embed-responsive-item card-top-img" alt="Product Image">
                 </div>                
-                <h3>${product.title}</h3>
-                <h4>${product.price} $</h4>
+                <h4>${product.title}</h4>
+                <h5>${product.price} $</h5>
                 <button class="btn btn-outline-primary">BUY</button>
                 </div>
                 </div>
